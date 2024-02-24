@@ -1,0 +1,110 @@
+:root{
+  --btn-color: #0984c1
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+body{
+  height: 100svh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 241, 0.251);
+}
+.img-area{
+  height: 100svh;
+}
+.container{
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  width: 70%;
+  text-align: center;
+  height: 100%;
+}
+.welcome-area{
+  margin-top: 5%;
+  width: 100%;
+  border: none;
+  padding: 3px;
+  font-size:1.4rem;
+  color: white;
+  border-bottom: 5px dashed;
+  border-top: 5px dashed;
+  background-color: #a9b2cd34;
+}
+.welcome-area h1{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.form-container{
+  background-color: rgb(216, 226, 255);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.148);
+  padding: 30px;
+  margin-top: 8.8%;
+}
+.controls-cotnainer{
+  display: flex;
+  margin-left: 6%;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.box-2{
+  margin-left: 10%;
+}
+label{
+  text-align: left;
+  margin-bottom: 5px;
+}
+input{
+  padding: 7px 20px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  border: 1px solid rgb(56, 104, 235);
+}
+.box div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.first{
+  margin-top: 10px;
+}
+.btn-area{
+  text-align: left;
+  padding: 5%;
+}
+button{
+  padding: 10px 20px;
+  background-color: var(--btn-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+}
+.btn-area p{
+  margin-top: 10px;
+  position: relative;
+  right: 16px;
+}
+#log-span a{
+  text-decoration: none;
+  color: var(--btn-color);
+  font-weight: 600;
+}
+h2{
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 6.1%;
+  color: rgb(49, 49, 49);
+}
+input:focus{
+  outline: #00020834;
+}
+input:invalid{
+  border: 1px solid red;
+}
