@@ -48,6 +48,7 @@ body{
 .controls-cotnainer{
   display: flex;
   margin-left: 6%;
+  width: min(70%, 100%);
 }
 .box{
   display: flex;
@@ -115,4 +116,7 @@ button:hover{
 }
 #pac-span{
   color: rgb(66, 66, 255);
+}
+img{
+  width: min(30%, 100%);
 }
