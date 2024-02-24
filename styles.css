@@ -9,7 +9,6 @@
 }
 body{
   height: 100svh;
-  overflow: hidden;
   background-color: rgba(0, 0, 241, 0.251);
 }
 .img-area{
@@ -48,7 +47,7 @@ body{
 .controls-cotnainer{
   display: flex;
   margin-left: 6%;
-  width: min(70%, 100%);
+  width: min(70%,);
 }
 .box{
   display: flex;
